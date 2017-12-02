@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <article>
+
+        <header>
+            <h1>Соціологічне опитування на тему <i>Молодь та спорт</i></h1>
+        </header>
+        <p>Доброго дня, уділіть будь ласка декілька хвилин на заповнення даної анкети</p>
+
+
+        <form method="POST" action="https://formspree.io/borys.andrew@gmail.com">
+
+
+            <fieldset>
+                <h3>Як Ви відноситесь до спорту</h3>
+                    <label>
+                        <input type="radio" name="Sport" Value="Positive">Позитивно <br>
+                    </label>
+                    <label>
+                        <input type="radio" name="Sport" value="Negative">Негативно <br>
+                    </label>
+                    <label>
+                        <input type="radio" name="Sport" Value="Indiferent">Нейтрально <br>
+                    </label>
+            </fieldset>        
+            <br>
+            <fieldset>
+                <h3>Чи займаєтесь Ви спортом</h3>
+                    <label>
+                        <input type="checkbox" name="sport" Value="SportYes">Так <br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="sport" Value="SportNo">Ні <br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="go to sport">Планую <br>
+                    </label>
+            </fieldset>        
+            <br>
+
+            <fieldset>
+                <h3>Як зацікавити молодь до спорту</h3>
+                    <label>
+                        <input type="checkbox" name="interestesd" Value="Akcii">Проведення акцій <br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="interestesd" Value="Newspaper">Випуск спортивної газети <br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="interestesd" Value="TV">Телебачення <br>
+                    </label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <h3>Якому виду спорту Ви надаєте перевагу</h3>
+                    <label>
+                        <input type="text" name="kind">
+                    </label>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <h3>Ваша стать</h3>
+                    <label>
+                        <input type="radio" name="gender" value="male">Чоловіча <br>
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="female">Жіноча <br>
+                    </label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <h3>Ваш вік </h3>
+                    <label>
+                        <input type="text" name="age" required>
+                    </label>
+            </fieldset> <br>
+            <input type="submit"> <br> <br>
+            <input type="reset">
+        </form>
+        </article>
+</body>
+
+</html>
